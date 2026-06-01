@@ -332,7 +332,7 @@ Träning
         display:grid;
         grid-template-columns: 20% 20% 20% 20% 20%;
         grid-template-rows: 225px;
-        grid-row-gap: 40px;
+        grid-gap:1em;
         width: 80vw;
         height:75vh;
         background-color:#555555bf;
@@ -342,6 +342,22 @@ Träning
         overflow: scroll;
         border-radius: 15px;
         padding-top: 15px; 
+
+        @media screen and (min-width: 200px) {
+            grid-template-columns: 225px;
+        }
+        @media screen and (min-width: 500px) {
+            grid-template-columns: 225px 225px;
+        }
+        @media screen and (min-width: 800px) {
+            grid-template-columns: 225px 225px 225px;
+        }
+        @media screen and (min-width: 1000px) {
+            grid-template-columns: 200px 200px 200px 200px;
+        }
+        @media screen and (min-width: 1400px) {
+            grid-template-columns: 225px 225px 225px 225px 225px;
+        }
         
     }
     .kart_samlare::-webkit-scrollbar{
@@ -357,14 +373,21 @@ Träning
         position: fixed;
         border-radius: 15px;
         justify-content: center;
+        @media screen and (max-width:800px) {
+            grid-template-columns: 50% 50%;
+            grid-template-rows:50px 50px 50px 50px 50px 50px 50px 50px ;
+            
+        }
     }
+
+
     .bild{
         justify-self: center;
     }
 
     img{
-        max-width: 16vw;
-        max-height: 24vh;
+        max-width: 200px;
+        max-height: 200px;
         width: auto;
         height: auto;
         border: none;
@@ -475,6 +498,10 @@ Träning
     margin-bottom:10px;
     opacity: 0.8;
     border-radius: 12px;
+}
+
+@media{
+
 }
 
 </style>

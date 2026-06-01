@@ -1,14 +1,8 @@
 [
   {
-    "src": "/uploads/1780250662377-Swedish League 5 skelle.png",
-    "tävling": "Swedish Leuge 5",
-    "tävlings_distans": "medel",
-    "date": "2023-05-18"
-  },
-  {
-    "src": "/uploads/1780304023519-Norrlandsmästerskapen, sprint, H18, Isak Bengtsson.png",
-    "tävling": "Norrlandsmästerskap Sprint",
+    "src": "/uploads/1780318328142-Norrlandsmästerskapen, sprint, H18, Isak Bengtsson.png",
+    "tävling": "test",
     "tävlings_distans": "sprint",
-    "date": "2025-08-08"
+    "date": "2026-06-01"
   }
 ]
